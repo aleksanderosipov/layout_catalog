@@ -45,6 +45,7 @@
       font-weight: 500;
       font-size: 12px;
       color: $nav-link-color;
+      transition: color 300ms ease-in-out;
     }
 
     &-link:hover {

@@ -8,6 +8,11 @@
   border: 1px solid #f3f3f3;
   background: #fff;
   padding: 32px 16px 16px;
+  transition: transform 300ms ease-in-out;
+
+  &:hover {
+    transform: scale(1.2);
+  }
 
   &__image {
     display: block;
